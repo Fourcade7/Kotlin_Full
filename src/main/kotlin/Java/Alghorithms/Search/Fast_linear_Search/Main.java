@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Integer> integerArrayList=new ArrayList<>();
-        Main main=new Main();
+        ArrayList<Integer> integerArrayList = new ArrayList<>();
+        Main main = new Main();
 
         integerArrayList.add(2);
         integerArrayList.add(4);
@@ -14,20 +14,20 @@ public class Main {
         integerArrayList.add(12);
         integerArrayList.add(14);
 
-        System.out.println(main.fastlinearSearch(integerArrayList,10));
+        System.out.println(main.fastlinearSearch(integerArrayList, 10));
 
     }
 
 
-    public int fastlinearSearch(ArrayList<Integer> arrayList, int x){
-        int i=0;
-        int count=arrayList.size();
-       arrayList.add(x);
-        while (true){
-            if (arrayList.get(i)==x){
-                if (i<count){
+    public int fastlinearSearch(ArrayList<Integer> arrayList, int x) {
+        int i = 0;
+        int count = arrayList.size();
+        arrayList.add(x);
+        while (true) {
+            if (arrayList.get(i) == x) {
+                if (i < count) {
                     return i;
-                }else {
+                } else {
                     return -1;
                 }
             }
