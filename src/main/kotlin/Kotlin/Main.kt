@@ -2,6 +2,7 @@ package Kotlin
 
 
 
+
 fun main(){
-    print("axax")
+    println("xaxa")
 }
