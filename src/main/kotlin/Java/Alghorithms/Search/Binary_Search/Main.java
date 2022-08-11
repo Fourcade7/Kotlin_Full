@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int[] myarray={2,4,6,8,10,12,14,16,18,20};
         Main main=new Main();
-        System.out.println(main.BinarySearch(myarray,3));
+        System.out.println(main.BinarySearch(myarray,6));
     }
 
 
