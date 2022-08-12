@@ -3,7 +3,7 @@ package Kotlin.Alghorithms.Search.Binary_Search
 
 fun main() {
     val array = arrayOf(2, 4, 6, 8, 10, 12, 14, 16, 18, 20)
-    print(binarySearch(array, 8))
+    println(binarySearch(array, 6))
 
     val items = Array(10, { 20 })
     items.forEach {
