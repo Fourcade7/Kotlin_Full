@@ -11,6 +11,8 @@ public class Main {
 
         Main main = new Main();
         main.bubbleSort(myarray);
+        System.out.println(Arrays.toString(myarray));
+
 
     }
 
@@ -18,7 +20,7 @@ public class Main {
 
         for (int i = 0; i < array.length; i++) {
 
-            for (int j = 1; j < array.length; j++) {
+            for (int j = i+1; j < array.length; j++) {
                 if (array[j] < array[i]) {
                     int tmp = array[j];
                     array[j] = array[i];
@@ -27,7 +29,6 @@ public class Main {
             }
         }
 
-        System.out.println(Arrays.toString(array));
 
         return array;
     }
