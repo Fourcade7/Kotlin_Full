@@ -26,6 +26,9 @@ public class Main {
                     array[j] = array[i];
                     array[i] = tmp;
                 }
+                System.out.println("i="+i);
+                System.out.println("j="+j);
+
             }
         }
 
