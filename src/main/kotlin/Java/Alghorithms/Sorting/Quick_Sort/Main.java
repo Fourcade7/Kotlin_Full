@@ -3,9 +3,6 @@ package Java.Alghorithms.Sorting.Quick_Sort;
 import java.util.Arrays;
 
 public class Main {
-
-
-
     // Driver Code
     public static void main(String[] args)
     {
