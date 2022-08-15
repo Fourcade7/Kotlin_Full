@@ -14,7 +14,7 @@ public class Main {
         numberlist.addAll(0,Arrays.asList(144,8));
         numberlist.removeAll(Arrays.asList(1,3));
         numberlist.remove(3);
-        numberlist.clear();
+        //numberlist.clear();
         System.out.println(numberlist);
 
 

@@ -9,8 +9,17 @@ fun main(){
         array.add(8)
         array.add(0,0)
         array.removeAt(3)
+        array.removeAt(3)
         array.addAll(listOf(10,20,30))
-        array.addAll(0,listOf(100,200,300))
+        array.addAll(8,listOf(100,200,300)) //8 dab boshlab qo`shadi
+        array.removeAll(mutableListOf(10,20,30))
+
+        array.forEachIndexed { index, i ->
+
+            println("$index->$i")
+        }
+
+
 
 
 
