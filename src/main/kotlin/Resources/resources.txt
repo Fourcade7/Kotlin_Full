@@ -1,0 +1,19 @@
+
+
+
+//Java
+int[] array1 = { 10, 7, 8, 9, 1, 5,85,64,31,42 };
+int[] array2= {5, 4, 8, 9, 0, 1, 3, 7, 44, 3};
+
+List<Integer> arraylist1=new ArrayList<>(Arrays.asList(7,5,9,8,7,1,2,3,6,5,4));
+List<Integer> arraylist2=new ArrayList<>(Arrays.asList(4,1,2,9,8,3,4,7,5,4,9,0));
+
+
+//Kotlin
+
+val array1 = arrayOf(2, 4, 6, 8, 10, 12, 14, 16, 18, 20)
+val array2 = arrayOf(20,5,9,15,46,57,82,16,49,77,51,24)
+
+
+val list1= mutableListOf(1,2,3,4,5,6,7,8,9,10)
+val arraylist=arrayListOf(5,6,7,10,3,64,87,0,3,2)

@@ -1,6 +1,5 @@
 package Java.Alghorithms.Sorting.Bubble_Sort;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Main {
@@ -12,6 +11,8 @@ public class Main {
         Main main = new Main();
         main.bubbleSort(myarray);
         System.out.println(Arrays.toString(myarray));
+
+        Arrays.sort(myarray); //simple
        
 
 
