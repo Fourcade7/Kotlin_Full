@@ -10,6 +10,7 @@ fun main(){
     val service= Service<Truck>()
     service.test()
 
+
 }
 
 

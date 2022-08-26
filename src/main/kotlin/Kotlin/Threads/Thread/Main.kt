@@ -1,14 +1,20 @@
 package Kotlin.Threads.Thread
 
-
-
-
+import kotlin.concurrent.thread
 
 
 fun main(){
 
     val google=Google()
     google.start()
+
+    val th=Thread{
+        println("new thread created")
+    }
+    th.start()
+    thread {
+        println("this is a new thread with lambdas")
+    }
 }
 
 class Google:Thread(){
