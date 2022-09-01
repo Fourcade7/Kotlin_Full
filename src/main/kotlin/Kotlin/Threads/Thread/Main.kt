@@ -17,7 +17,7 @@ fun main(){
     }
 }
 
-class Google:Thread(){
+ class Google:Thread(){
 
     fun add(a:Int,b:Int){
         sleep(2000)
