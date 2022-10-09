@@ -1,29 +1,22 @@
 package Kotlin.Functions.Invoke_Functions
 
 
-
-
-
-
-
-
-
-fun main(){
-        val google=Google()
-    val  tak={
+fun main() {
+    val google = Google()
+    val tak = {
         println("uaxax")
     }
-        tak()
-        kak.invoke()
+    tak()
+    kak.invoke()
 }
 
-val  kak={
+val kak = {
     println("axax")
 }
 
-class Google{
+class Google {
 
-    fun youtube(){
+    fun youtube() {
         println("Video is playing")
     }
 
