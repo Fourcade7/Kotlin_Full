@@ -21,4 +21,25 @@ fun main() {
     val shape = Square()
     shape.fill("Red")
     shape.draw()
+
+    println(getLoadState(Succes("200 OK")))
 }
+
+abstract class LoadState
+data class Succes(val data:String):LoadState()
+data class Failure(val eror:String):LoadState()
+
+fun getLoadState(loadState: LoadState):Any{
+    val any=when(loadState){
+        is Succes ->{
+            loadState.data
+        }
+        is Failure ->{
+            loadState.eror
+        }
+        else->{}
+    }
+    return any
+}
+
+
