@@ -13,11 +13,11 @@ fun main(){
 
 
 class Google{
-
+    val name="Google LLC"
     class Youtube{
-        fun showvideo()= println("video is playing")
+        fun showvideo()= println("video is playing ") //can not use name
     }
     inner class Chrome{
-        fun showwebsite()= println("loading website")
+        fun showwebsite()= println("loading website $name")
     }
 }
