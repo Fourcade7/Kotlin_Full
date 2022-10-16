@@ -12,9 +12,16 @@ fun main(){
     val car=Car()
     car.drive()
     car.stop()
-    val a=4
+    val a=3
     a.kv(3)
+    a.juft()
 
+}
+
+fun Int.juft(){
+    if (this%2==0){
+        println("Juft son")
+    }
 }
 
 fun Int.kv(a:Int){
