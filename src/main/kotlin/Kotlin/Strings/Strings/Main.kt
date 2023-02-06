@@ -35,6 +35,8 @@ fun main(){
 
     stringtoprint(a)
     println(reverseword("Fourcade"))
+    //Extract numbers from a string kotlin
+    println(name.filter { it.isDigit() })
 
 }
 
