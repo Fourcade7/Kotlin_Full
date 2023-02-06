@@ -38,6 +38,17 @@ fun main(){
     //Extract numbers from a string kotlin
     println(name.filter { it.isDigit() })
 
+    println(name.indexOf("Uz"))
+    println(findword("Beruniy",name))
+
+}
+
+fun findword(word:String,text:String):String{
+    if (text.contains(word)){
+        return text.substring(text.indexOf(word),(text.indexOf(word)+word.length))
+    }else{
+        return "not found"
+    }
 }
 
 fun reverseword(word:String):String{
