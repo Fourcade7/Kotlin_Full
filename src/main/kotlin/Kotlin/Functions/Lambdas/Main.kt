@@ -2,6 +2,9 @@ package Kotlin.Functions.Lambdas
 
 
 fun main() {
+    
+    val randomnumber=(0..10).random()
+
 
     val add: (Int) -> (Int) = {
         println("This is add")
