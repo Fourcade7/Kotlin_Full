@@ -8,6 +8,11 @@ package Kotlin.Classes.Enum_Class
 
 fun main(){
 
+    val person=Person(name = "Jorel", age = 995, gender =GENDER.MALE)
+    println(person.gender)
+    println(person.gender.defination)
+
+
     val network=Network.CONNECT
     val check=when(network){
         Network.CONNECT -> {"Internet has connected"}
@@ -50,4 +55,11 @@ enum class Season{
     FALL,
     WINTER,
     SPRING
+}
+
+
+class Person(val name:String,val age:Int ,val gender: GENDER)
+enum class GENDER constructor(val defination:String){
+    MALE("Erkak"),
+    FEMALE("Ayol")
 }
