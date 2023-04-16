@@ -1,6 +1,4 @@
 package Kotlin.Classes.Sealed_Class
-
-import Kotlin.Functions.Inline_Function.pr
 import kotlin.math.PI
 import kotlin.math.pow
 

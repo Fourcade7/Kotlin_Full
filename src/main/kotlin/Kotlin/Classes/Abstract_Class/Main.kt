@@ -1,6 +1,4 @@
 package Kotlin.Classes.Abstract_Class
-
-
 abstract class Shape {
     var color = ""
     abstract fun fill(color: String)
@@ -21,8 +19,12 @@ fun main() {
     val shape = Square()
     shape.fill("Red")
     shape.draw()
-
     println(getLoadState(Succes("200 OK")))
+
+    val adobeCC=AdobeCC()
+    adobeCC.windows()
+    adobeCC.mac()
+
 }
 
 abstract class LoadState
@@ -40,6 +42,25 @@ fun getLoadState(loadState: LoadState):Any{
         else->{}
     }
     return any
+}
+
+
+
+abstract class Adobe(){
+    abstract  fun windows()
+    open fun mac(){
+        println("product for mac")
+    }
+}
+
+class AdobeCC():Adobe(){
+    override fun windows() {
+        println("for windows")
+    }
+
+    override fun mac() {
+        println("for mac")
+    }
 }
 
 
