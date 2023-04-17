@@ -18,8 +18,13 @@ fun main(){
     array3.forEach {
         println(it)
     }
-    val array4=IntArray(10){i -> i*2 }
+    val array4=IntArray(20){i -> i*1 }
 
     println(array3.joinToString())
     println(array4.joinToString())
+
+    val array5= arrayOfNulls<Int>(100)
+    array5.forEach {
+        println(it)
+    }
 }

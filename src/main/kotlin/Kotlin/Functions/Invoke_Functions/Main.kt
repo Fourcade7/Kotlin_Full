@@ -4,7 +4,7 @@ package Kotlin.Functions.Invoke_Functions
 fun main() {
     val google = Google()
     val tak = {
-        println("uaxax")
+        println("uaxax 2023")
     }
     tak()
     kak.invoke()
