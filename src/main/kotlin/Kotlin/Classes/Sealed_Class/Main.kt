@@ -26,7 +26,8 @@ fun main(){
     println(getLoad(LoadState.Failure("500 ERROR")))
 
     findArea(Shape.Square(4.0))
-    println(Screen.Home.route)
+    println(Screen.Home().route)
+    Screen.Home().printinfo()
 
 }
 
@@ -49,6 +50,10 @@ sealed class Shape{
 
 
 sealed class Screen(val route:String){
-    object Home:Screen(route = "home_screen")
+    class Home:Screen(route = "home_screen"){
+        fun printinfo(){
+            println("${route} invoked")
+        }
+    }
     object Detail:Screen(route = "detail_screen")
 }

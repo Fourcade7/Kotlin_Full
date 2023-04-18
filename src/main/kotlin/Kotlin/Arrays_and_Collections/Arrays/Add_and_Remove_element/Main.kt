@@ -20,6 +20,13 @@ fun main(){
             println("$index->$i")
         }
 
+        val array= intArrayOf(3,2,4)
+        for ((i,v) in array.withIndex()){
+                println("$i $v")
+        }
+        array.forEachIndexed {index: Int, i: Int ->
+
+        }
 
 
 

@@ -27,4 +27,33 @@ fun main(){
     array5.forEach {
         println(it)
     }
+    /*
+     val array:Array<Int> =Array(10,{4})
+    array.forEach {
+        println(it)
+    }
+    println("array2")
+    val array2=IntArray(10)
+    array2.forEach {
+        println(it)
+    }
+    println("array3")
+    val array3=IntArray(10,{
+        it
+    })
+    array3.forEach {
+        println(it)
+    }
+
+    println("array4")
+    val array4=IntArray(10){it*2}
+    array4.forEach {
+        println(it)
+    }
+    println("array5")
+    val array5= arrayOfNulls<Int>(100)
+    array5.forEach {
+        println(it)
+    }
+    * */
 }
