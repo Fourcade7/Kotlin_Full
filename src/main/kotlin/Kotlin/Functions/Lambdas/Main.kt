@@ -1,9 +1,16 @@
 package Kotlin.Functions.Lambdas
 
+ fun pr(myfun:Unit){
+     
+ }
 
 fun main() {
     
     val randomnumber=(0..10).random()
+
+    val listener: ((Int) -> Unit) = {}
+    pr(listener.invoke(8))
+   
 
 
     val add: (Int) -> (Int) = {
